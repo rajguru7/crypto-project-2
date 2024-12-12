@@ -1,0 +1,39 @@
+{
+ "signatures": [
+  {
+   "keyid": "99ec7eff3e862141b896630bd05ddf6090e07dc31cba900d56b0da6ebf408a87",
+   "sig": "3045022100c289255eec7e5ca9aaa5aada3b520b077cbe24d4504bec2a444454fdfedf7618022044cdc589fe6dd71ff23eda57188f7f76a6358516b9af2da161ae16bc948e152c"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "cd183f319e2d14971d5e4b4e850bbec6cfa6585ee0702ec8cf2291a815efc118": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETK0gsdBunJ0z1MLF704VGrT6kgmj\nyWuYtcJOqT8cxpnIwvYoDltI3hw9t21TMkQ82lOBu7Sa0/vN/wvr2KV94A==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "cd183f319e2d14971d5e4b4e850bbec6cfa6585ee0702ec8cf2291a815efc118"
+     ],
+     "name": "piptuf-demo",
+     "paths": [
+      "packages/unclaimed/piptuf-demo/*"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2024-12-13T02:45:47Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 1
+ }
+}

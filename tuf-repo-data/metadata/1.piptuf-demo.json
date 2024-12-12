@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "cd183f319e2d14971d5e4b4e850bbec6cfa6585ee0702ec8cf2291a815efc118",
+   "sig": "304502210094c8280574891e7feb6a6abfcc97872eb39d98bf214a937dfc0d65b3f930a14f02204713870b0348d2538bf762f1bc3d05f106b7c9bea92d686f0de697ebd3c709cd"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2024-12-13T02:46:21Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "packages/unclaimed/piptuf-demo/piptuf_demo-0.3-py3-none-any.whl": {
+    "hashes": {
+     "sha256": "e2752789730f96541ac63dca8b487ef6f4747733f10a3144e56282a3ca605c6c"
+    },
+    "length": 1717
+   }
+  },
+  "version": 1
+ }
+}

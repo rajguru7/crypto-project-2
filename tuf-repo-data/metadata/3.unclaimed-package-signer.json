@@ -1,0 +1,53 @@
+{
+ "signatures": [
+  {
+   "keyid": "99ec7eff3e862141b896630bd05ddf6090e07dc31cba900d56b0da6ebf408a87",
+   "sig": "304502205d04e0980ee9d7fdab685ac81dbb2c7db56fc2db1866c7290c3d5cfdb42e0e1e022100e2dd21952164fd1821fa5ac970ded3118bbc6acb628daa99fedbf74e8d5d257e"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "1f351f07ec4c412db82ef6d24d3f4b69e6e7767bb2be57f6e6b308eadc09512a": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3m9/75ybqS2sMrf9ENH2zJkTd4RD\n2iRt3DUtq6S3sFHnXHxOgkM7tb9+Ogj5l386g8PtP6xPLwK13JORzQGl6g==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256"
+    },
+    "bceb7fbb595c307b17d52a47c51685d4b2e2146b0cac2c0a4492a01e017d0503": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIqJPDpSe5LI9suPiyrMa8IeTCaI1\nvUj8Tv59La9qJa6X/7D0pgV49+BiZRRrPyN4hYhV9jLBanj3jwkqjNlJyA==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256"
+    },
+    "cd183f319e2d14971d5e4b4e850bbec6cfa6585ee0702ec8cf2291a815efc118": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETK0gsdBunJ0z1MLF704VGrT6kgmj\nyWuYtcJOqT8cxpnIwvYoDltI3hw9t21TMkQ82lOBu7Sa0/vN/wvr2KV94A==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "1f351f07ec4c412db82ef6d24d3f4b69e6e7767bb2be57f6e6b308eadc09512a"
+     ],
+     "name": "piptuf-demo",
+     "paths": [
+      "packages/unclaimed/piptuf-demo/*"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2024-12-13T02:49:33Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 3
+ }
+}

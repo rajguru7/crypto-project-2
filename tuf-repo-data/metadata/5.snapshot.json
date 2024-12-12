@@ -1,0 +1,25 @@
+{
+ "signatures": [
+  {
+   "keyid": "99ec7eff3e862141b896630bd05ddf6090e07dc31cba900d56b0da6ebf408a87",
+   "sig": "30450220247d1de95f9154dae7ef6f1467b676ed05bccde2afd62c90b53225c1d17f619c022100d8147bf75c5cd615fc7bee4f061dc7ff9d485407ff67c83f3f0810aacf36fe65"
+  }
+ ],
+ "signed": {
+  "_type": "snapshot",
+  "expires": "2024-12-13T02:46:21Z",
+  "meta": {
+   "piptuf-demo.json": {
+    "version": 1
+   },
+   "targets.json": {
+    "version": 3
+   },
+   "unclaimed-package-signer.json": {
+    "version": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 5
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "signatures": [
+  {
+   "keyid": "602412fb2a0fa30dda8f42f01a5b187c8b716e8fbfd6066b5c5138e8383bca07",
+   "sig": "3044022063e80bea558a32140679381e70097c2b82e4d124bfc40b167493593b4ca38df602201614f7896976067a806223c2fb4fd6fa02553de818e2adc3701e91a90e9ea99d"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "602412fb2a0fa30dda8f42f01a5b187c8b716e8fbfd6066b5c5138e8383bca07": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoTFXxgit2Ic8OCVu4UccrCZZsWoO\nysoaqPYhzvO/l39k2y1XFhTjZutq+vaG5FtuQcTb8TZ3vexCrQd9tpKtjw==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "602412fb2a0fa30dda8f42f01a5b187c8b716e8fbfd6066b5c5138e8383bca07"
+     ],
+     "name": "claimed-package-signer",
+     "paths": [
+      "packages/claimed/*/*"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2024-12-13T02:45:17Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 2
+ }
+}

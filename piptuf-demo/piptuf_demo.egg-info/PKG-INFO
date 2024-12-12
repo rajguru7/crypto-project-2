@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: piptuf-demo
+Version: 0.3
+Summary: A demo project.
+Author: LV
+Author-email: lv@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+
+TUF Signature for verification: 4be6522b22cfc6f2d2d4f8e257f308fad7d37658b57d15282e02055a90057b65afff814cd98ff0e81c2329436bcdbd33cd0428eb53811fb1eedb45f1a87825d2f558c468df74f8d6f439c847b1f82bc436f4b3b75c03c9d1c527e5789b8c2b01f59dfc086f6d0d467dde45cf51a2390a5d8f7f5885f58314c2e9aa840fcab5e6b52c934ca1d967840caeca3f6eee82b487e749c575480a20c6a598b80f51fa6853b670160b3e2ce3b9df0d3114dcbe4682db33c0a80aa2aba82b5289388650f3fdbcd705890beb62380ad5a5527a84ee5c7b2cf19e94358612c6ec9fabafbe3b3fc3c5be1ca38b0dd4f6b32dadd79a3b3fb71894d55c4c01ad4d48f9d3c4b76a

@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+
+import os
+import requests
+import json
+
+def get_metadata(role):
+    res = requests.get(f"http://127.0.0.1:8001/metadata/{role}.json")
+    if res.status_code != 200:
+        print(f"Error: {role} metadata not found.")
+        print(res.status_code)
+        return
+    with open(f"{role}.json", "wb") as f:
+        f.write(res.content)
+    res_json = json.loads(res.content)
+    for version in range(1, res_json['signed']['version'] + 1):
+        res = requests.get(f"http://127.0.0.1:8001/metadata/{version}.{role}.json")
+        with open(f"{version}.{role}.json", "wb") as f:
+            f.write(res.content)
+
+# get metadata
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+if not os.path.exists("metadata"):
+    os.mkdir("metadata")
+os.chdir("metadata")
+
+root_roles = [ "root", "snapshot", "timestamp", "targets",
+              "claimed-package-signer", "unclaimed-package-signer", "package1",
+              "piptuf-demo" ]
+              
+
+for root_role in root_roles:
+    get_metadata(root_role)
+
+
+

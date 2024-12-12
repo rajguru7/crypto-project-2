@@ -1,0 +1,7 @@
+README.md
+setup.py
+piptuf_demo/demo.py
+piptuf_demo.egg-info/PKG-INFO
+piptuf_demo.egg-info/SOURCES.txt
+piptuf_demo.egg-info/dependency_links.txt
+piptuf_demo.egg-info/top_level.txt
